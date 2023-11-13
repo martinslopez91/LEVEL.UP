@@ -1,4 +1,18 @@
 /*--------------CUSTOM PROPERTY--------------*/
+/*-----------STYLE SECTION-------*/
+.h100-w100{
+    height: 100%;
+    width: 100%;
+}
+/*-----------STYLE SECTION END-------*/
+
+/*-----------CONTAINER MAIN SECTION--------*/
+.container-config-hw{
+    height: 50%;
+    width: 100%;
+}
+/*-----------CONTAINER MAIN SECTION--------*/
+
 /*--------------RESET STYLE---------------*/
 :root{
     background-color: #080808;
@@ -23,7 +37,7 @@ header{
     height: 600px;
 }
 main{
-    height: 80vh;
+    height: 1000px;
     width: 100%;
     background-color: black;
 }
@@ -32,6 +46,33 @@ footer{
     width: 100%;
 }
 /*-----------BOOSTRAP STYLE--------------*/
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+  
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+  }
+  
 /*-----------MY STYLE---------------*/
 /*HEADER*/
 .min-px{
@@ -144,6 +185,22 @@ footer{
     color: white;
 }
 .btn-apliq:hover{
+    opacity: 100%;
+    background-color: #f900ff;
+    border: 1px solid #f900ff;
+    box-shadow: 1px 2px 4px 2px #f900ff;
+    color: black;
+}
+.btn-apliq-main{
+    width: 100%;
+    border: 1px solid #f900ff;
+    opacity: 50%;
+    transition: 0.5s;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+}
+.btn-apliq-main:hover{
     opacity: 100%;
     background-color: #f900ff;
     border: 1px solid #f900ff;
