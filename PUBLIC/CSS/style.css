@@ -1,6 +1,10 @@
 /*--------------CUSTOM PROPERTY--------------*/
 /*-----------STYLE SECTION-------*/
 .h100-w100{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
     height: 100%;
     width: 100%;
 }
@@ -8,8 +12,16 @@
 
 /*-----------CONTAINER MAIN SECTION--------*/
 .container-config-hw{
-    height: 50%;
+    height: 70%;
     width: 100%;
+}
+.text-p{
+    color: rgb(150, 150, 150);
+}
+.divisor{
+    width: 80%;
+    height: 1px;
+    background-color: #f900ff;
 }
 /*-----------CONTAINER MAIN SECTION--------*/
 
@@ -17,6 +29,12 @@
 :root{
     background-color: #080808;
     height: 100vh;
+}
+input::-webkit-input-placeholder {
+    color: rgb(135, 135, 135) !important;
+  }
+textarea::-webkit-input-placeholder{
+    color: rgb(135, 135, 135) !important;
 }
 a,li{
     list-style: none;
@@ -37,7 +55,7 @@ header{
     height: 600px;
 }
 main{
-    height: 1000px;
+    height: 1500px;
     width: 100%;
     background-color: black;
 }
@@ -72,7 +90,7 @@ footer{
     width: 3rem;
     height: 3rem;
   }
-  
+
 /*-----------MY STYLE---------------*/
 /*HEADER*/
 .min-px{
@@ -206,6 +224,34 @@ footer{
     border: 1px solid #f900ff;
     box-shadow: 1px 2px 4px 2px #f900ff;
     color: black;
+}
+.color-icon{
+    background:#f900ff;
+}
+.min-px-icon{
+    width: 20px;
+    height: 20px;
+}
+.bg-grid-pink{
+    background-image: url(../IMG/sectio\ ok.png);
+    background-size: cover;
+
+}
+.form-edit{
+    outline: none;
+    border: none;
+}
+.bg-transparent{
+    background-color: transparent;
+    border-bottom: 1px solid #636363;
+    border-radius: 0px;
+    outline: #7900ad;
+    width: 70%;
+    color: white;
+}
+.bg-acord{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
 }
 /*MAIN END*/
 
